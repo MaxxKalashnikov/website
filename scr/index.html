@@ -6,13 +6,16 @@
     <meta name="author" content="MaxX">
     <meta name="robots" content="all">
     <meta property="og:title" content="Это моя первая страница!">
+    <link rel="stylesheet" href="../scr/css/reset.css">
+    <link rel="stylesheet" href="../scr/css/style.css">
     <title>Андрей Браун - Веб-разработчик</title>
 </head>
 <body>
    <header>
        <nav>
          <div class="logo"> Андрей Браун</div> 
-         <div class="menu"><ul>
+         <div class="menu">
+         <ul>
           <li>Обо мне</li>
           <li>Услуги</li>
           <li>Кейсы</li>
@@ -30,87 +33,119 @@
        </div></div>
    <div class="aboutmyself__container">
       <h2>ОБО МНЕ</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dicta at eius labore eos voluptate repellendus harum quaerat nobis, corporis obcaecati assumenda, perspiciatis vero sed voluptatibus a fugiat odio incidunt minus, quis cumque adipisci. Est cum harum officiis ipsum unde.</p> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dicta at eius labore eos voluptate repellendus harum quaerat nobis, corporis obcaecati assumenda, perspiciatis vero sed voluptatibus a fugiat odio incidunt minus, quis cumque adipisci. Est cum harum officiis ipsum unde.</p> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dicta at eius labore eos voluptate repellendus harum quaerat nobis, corporis obcaecati assumenda, perspiciatis vero sed voluptatibus a fugiat odio incidunt minus, quis cumque adipisci. Est cum harum officiis ipsum unde.<br><br><br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dicta at eius labore eos voluptate repellendus harum quaerat nobis, corporis obcaecati assumenda, perspiciatis vero sed voluptatibus a fugiat odio incidunt minus, quis cumque adipisci. Est cum harum officiis ipsum unde</p> 
       <input type="submit" value="Скачать резюме">
    </div> 
    <div class="myskills__container">
      <h2>ЧТО Я УМЕЮ</h2>
-      <h3>Веб-дизайн</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia saepe vero assumenda veniam dolores, necessitatibus blanditiis autem qui repellendus nam!</p>
-      <h3>Раработка</h3>     
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo dolores, iure voluptatum veniam soluta eos id voluptates inventore saepe ipsa.</p>
-      <h3>CEO-оптимизация</h3>     
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos doloribus modi accusamus deleniti aspernatur optio veritatis laboriosam, magni velit praesentium.</p>
+      <div class="skill1"><h3>Веб-дизайн</h3>
+          <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia saepe vero assumenda veniam dolores!</p></div>
+          <div class="skill2"><h3>Раработка</h3>
+              <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo dolores, iure voluptatum.</p></div>
+       <div class="skill3"> <h3>CEO-оптимизация</h3>    
+      <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos doloribus modi.</p></div>
+      <div class="skill4">
       <h3>Маркетинг</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia saepe vero assumenda veniam dolores, necessitatibus blanditiis autem qui repellendus nam!</p>
+          <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia saepe vero assumenda veniam!</p></div>
    </div>
    <div class="cases__container">
       <h2>КЕЙСЫ</h2>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sit modi necessitatibus officia ullam saepe enim a in harum atque.</p>
+       <p class="cases">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sit modi necessitatibus jssppqsjoxm ajospckx. </p>
+       <div class="casedata">
+       <h3>CLIENT:</h3>
+       <p><br>Какая-то компания<br></p>
+       <h3><br>WEBSITE:</h3>
+       <p><br>http://somedomain.com<br></p>
+       </div>
+       <div class="descpt">
+           <h3>Название проекта</h3>
+           <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae earum, minima culpa aliquam obcaecati quod excepturi necessitatibus dolorem officiis consequuntur fugiat odio inventore ullam assumenda, repellendus molestiae modi id velit placeat voluptatum nobis repudiandae omnis vitae libero. Qui, eaque, tempore.</p>
+       </div>
+       <div>
+       <input type="submit" value="VISIT LIVE SITE">
+       </div>
    </div>
    <div class="prices__container">
        <h2>РАСЧЕТ СТОИМОСТИ</h2>
        <h3>ТИП САЙТА</h3>
-       <form action="#">
+       <div class="form1"><form action="#">
            <select name="website" id="list">
                <option value="opt0">Выберите пункт...</option>
                <option value="opt1">Лендинг</option>
                <option value="opt2">Корпоративный сайт</option>
                <option value="opt3">Интернет-магазин</option>              
            </select>
-       
-       <h2>Дизайн</h2>
-       <form action="#">
+       </form>
+       </div>
+       <h3>ДИЗАЙН</h3>
+       <div class="form2"><form action="#">
            <select name="design" id="list">
                <option value="opt0">Выберите пункт...</option>
                <option value="opt1">Минимализм</option>
                <option value="opt2">Детский стиль</option>
                <option value="opt3">Стандартный стиль</option>              
            </select>
-       </form>
-        <h2>Адаптивность</h2>
-       
+           </form></div>
+        <h3>АДАПТИВНОСТЬ</h3>
+       <div class="form3"><form action="#">
            <select name="adaptive" id="list">
                <option value="opt0">Выберите пункт...</option>
                <option value="opt1">Только десктопная версия</option>
                <option value="opt2">Десктопная и мобильная версии</option>            
            </select>
-           
-       </form>
-       <h3>Сроки</h3>
-       <h3>Стоимость</h3>
+           </form>
+       </div>
+       <h5></h5>
+       <h4>Сроки</h4>
+       <h4>Стоимость</h4>
    </div>
    <div class="statistics__container">
        <h2>НЕМНОГО СТАТИСТИКИ</h2>
-       <p><b><big>120</big></b><br>СЧАСТИЛИВЫХ КЛИЕНТОВ<p>
-       <p><b><big>4,600</big></b><br>ЧАСОВ РАБОТЫ<p>
-       <p><b><big>340</big></b><br>ПРОЕКТОВ ЗАВЕРШЕНО<p>
-       <p><b><big>23</big></b><br>НАГРАД ПОЛУЧЕНО<p>
+       <div class="st1">
+       <h4>120</h4>
+       <p><br>СЧАСТИЛИВЫХ КЛИЕНТОВ<p></div>
+       <div class="st2">
+       <h4>4,600</h4>
+       <p><br>ЧАСОВ РАБОТЫ<p></div>
+       <div class="st3">
+       <h4>340</h4>
+       <p><br>ПРОЕКТОВ ЗАВЕРШЕНО<p></div>
+       <div class="st4">
+       <h4>23</h4>
+       <p><br>НАГРАД ПОЛУЧЕНО<p></div>
    </div>
    <div class="feedback">
       <h2>ОТЗЫВЫ</h2>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nesciunt, cupiditate! Cum sed minima nesciunt? Natus amet maiores repellendus ab.<br><b>Михаил</b>, Ген директор ПАО "Газпром"</p>
+       <div class="feedbackmihail"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nesciunt, cupiditate! Cum sed minima nesciunt? Natus amet maiores repellendus ab.<br></p></div>
+       <div class="mihail"><p><b>Михаил</b>, Ген директор ПАО "Газпром"</p></div>
+       <div class="choice">
        <input type="radio" name="text1">
        <input type="radio" name="text1">
-       <input type="radio" name="text1">
+        <input type="radio" name="text1">
+           </div>
    </div>
    <div class="mycontacts__container">
        <h2>МОИ КОНТАКТЫ</h2>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptates dolore perferendis sed incidunt maiores libero corporis quos reprehenderit distinctio.</p>
-       <p>Санкт-Петербург, Невский проспект 228</p>
-       <p>example@gmail.com</p>
-       <p>+7-999-999-99-99</p>
+       <div class="cont"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptates dolore perferendis sed incidunt maiores libero corporis quos reprehenderit distinctio.</p></div>
+       <div class="cont1"><p>Санкт-Петербург Невский проспект 228</p></div>
+       <div class="cont2"><p>example@gmail.com</p></div>
+       <div class="cont3"><p>+7-999-999-99-99</p></div>
        <h3>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h3>
-       <form action="#">
+       <div class="forma"><form action="#">
+           <div class="text11">
            <input type="text1" name="text1" value="" placeholder="Имя">
+           </div>
+           <div class="text22">
            <input type="text2" name="text1" value="" placeholder="Email">
-           <textarea name="text3" id="1" cols="30" rows="10"></textarea>
-           <input type="submit" value="Отправить">
-       </form>
+           </div>
+           <div class="text33">
+           <textarea name="text3" id="1" cols="30" rows="10" placeholder="Сообщение"></textarea>
+           </div>
+           <div class="formbutton"><input type="submit" value="Отправить"></div>
+           </form></div>
    </div>
    <div class="footer">
-       <footer>Copyright©2022 Андрей Браун. Design by Web</footer>
+       <footer><p>Copyright©2022 Андрей Браун. Design by Web</p></footer>
    </div>
 </body>
 </html>

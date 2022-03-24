@@ -1,0 +1,507 @@
+body{
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 320px;
+    float: left;
+}
+
+.menu{
+    float: left;
+    padding-left: 320px;
+}
+
+.menu li{
+    float: left;
+    font-size: 16px;
+    line-height: 60px;
+    margin-right: 40px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/shadow.png) 50% 650px no-repeat ,url(../img/boychik.png) 90% 100%/auto 85% no-repeat ,url(../img/bg.jpg) center/cover no-repeat;
+}
+
+.title__container{
+    float: left;
+    margin: 300px 0px 0px 310px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title__container h1{
+    font-size: 53px;
+    font-weight: bold;
+}
+
+.title__container h4{
+    margin-top: 35px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title__container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #78808b;
+    border-radius: 10px;
+    background: none;
+    color: #78808b;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 50px 14px 0px 14px;    
+}
+
+.aboutmyself__container{
+    background: #fcfdfd;
+    height: 718px;
+    background: url(../img/line.png) 50% 50px no-repeat , url(../img/circleboy.png) 50% 100px no-repeat;
+} 
+
+.aboutmyself__container h2{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 100px;
+    color: #2c384a;
+}
+
+.aboutmyself__container p{
+    text-align: left;
+    color: #2c384a;
+    font-size: 16px;
+    padding: 316px 450px 40px 450px;
+}
+
+.aboutmyself__container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #78808b;
+    border-radius: 10px;
+    background: none;
+    color: #78808b;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 26px 800px 98px 695px;
+}
+
+.myskills__container{
+    height: 520px;
+    background: url(../img/line.png) 50% 150px no-repeat , url(../img/bg2.jpg) no-repeat;
+}
+
+.myskills__container h2{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 90px;
+    color: #2c384a;
+}
+.myskills__container h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #cf7600;
+}
+.skill1{
+    margin: 110px 70px 95px 170px;
+     padding-top: 100px;
+    width: 220px;
+    float: left;
+    text-align: center;
+    background: url(../img/laptop.png) 50% 30px no-repeat;
+    font-size: 16px;
+}
+ .skill2{
+     margin: 110px 50px 95px 50px;
+     padding-top: 100px;
+     width: 220px;
+     float: left;
+    text-align: center;
+    background: url(../img/htmlsign.png) 50% 30px no-repeat;
+     font-size: 16px;
+}
+ .skill3{
+     margin: 110px 50px 95px 50px;
+     padding-top: 100px;
+     width: 220px;
+     float: left;
+    text-align: center;
+    background: url(../img/rocket.png) 50% 30px no-repeat;
+     font-size: 16px;
+}
+ .skill4{
+     margin: 110px 100px 95px 50px;
+     padding-top: 100px;
+     width: 220px;
+     float: left;
+    text-align: center;
+    background: url(../img/speaker.png) 50% 30px no-repeat;
+     font-size: 16px;
+}
+
+.cases__container{
+    height: 1250px;
+    background: url(../img/line.png) 50% 150px no-repeat, url(../img/case.jpg) 50% 250px no-repeat;
+    
+}
+.cases__container h2{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 90px;
+    color: #2c384a;
+}
+.cases{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 16px;
+}
+.cases__container h3{
+    color: #384354;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.casedata{
+    color: #384354;
+    width: 200px;
+    float: left;
+    margin: 690px 10px 100px 180px;
+    font-size: 17px;
+}
+
+.descpt{
+    color: #384354;
+    margin: 690px 10px 100px 90px;
+    float: left;
+    width: 700px;
+    font-size: 17px;
+}
+
+.cases__container input{
+    height: 40px;
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #63b5ae;
+    border-radius: 7px;
+    background: #63b5ae;
+    color: #fff;
+    font-size: 17px;
+    padding: 0px 16px;
+    margin-left: -1010px;
+    margin-top: 840px; 
+}
+
+.prices__container{
+    height: 810px;
+}
+.prices__container h2{
+    font-size: 34px;
+    text-align: center;
+    font-weight:bold;
+    margin-top: 50px;
+    color: #1c2534;
+}
+.prices__container h3{
+    margin-left: 290px;
+    margin-top: 70px;
+    font-size: 27px;
+    font-weight:bold;
+    color: #383e49;
+}
+.form1 select{
+    border: 2px solid #eee;
+    background-color: #eee;
+    font-size: 20px;
+    width: 920px;
+    height: 57px;
+    padding-left: 10px;
+    margin-left: 290px; 
+    margin-top: 30px;
+}
+.form2 select{
+    margin-left: 290px;
+    margin-top: 30px;
+    border: 2px solid #eee;
+    background-color: #eee;
+    font-size: 20px;
+    width: 920px;
+    height: 57px;
+    padding-left: 10px;
+}
+.form3 select{
+    margin-left: 290px;
+    margin-top: 30px;
+    border: 2px solid #eee;
+    background-color: #eee;
+    font-size: 20px;
+    width: 920px;
+    height: 57px;
+    padding-left: 10px;
+}
+
+.prices__container h5{
+    border-top: 2px solid #d1d1d1;
+    width: 920px;
+    margin-left: 290px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.prices__container h4{
+    font-size: 20px;
+    margin-left: 290px;
+    margin-bottom: 27px;
+    color: #383e49;
+    font-weight: bold;
+}
+.statistics__container{
+    height: 500px;
+    background: url(../img/line.png) 50% 150px no-repeat, url(../img/statistics.jpg) no-repeat;
+    
+}
+
+.statistics__container h2{
+    font-size: 34px;
+    text-align: center;
+    font-weight:bold;
+    margin-top: 50px;
+    color: #1c2534;
+    padding-top: 80px; 
+}
+.statistics__container p{
+    font-size: 18px;
+}
+.st1 h4{
+    font-size: 30px;
+    font-weight: 900;
+}
+.st2 h4{
+    font-size: 30px;
+    font-weight: 900;
+}
+.st3 h4{
+    font-size: 30px;
+    font-weight: 900;
+}
+.st4 h4{
+    font-size: 30px;
+    font-weight: 900;
+}
+.st1{
+    float: left;
+    height: auto;
+    background: url(../img/face.png) 95px 150px no-repeat;
+    text-align: center;
+    margin-left: 200px;
+    padding-top: 230px;
+}
+
+.st2{
+    height: auto;
+    float: left;
+    background: url(../img/sign.png) 40px 150px no-repeat;
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 230px
+}
+
+.st3{
+    height: auto;
+    float: left;
+    background: url(../img/tick.png) 84px 150px no-repeat;
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 230px
+}
+
+.st4{
+    height: auto;
+    float: left;
+    background: url(../img/cap.png) 60px 150px no-repeat;
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 230px
+}
+
+.feedback{
+    height: 570px;
+    background: url(../img/line.png) 50% 150px no-repeat, url(../img/man.png) 50% 230px no-repeat;
+}
+.feedback h2{
+    font-size: 34px;
+    text-align: center;
+    font-weight:bold;
+    margin-top: 50px;
+    color: #1c2534;
+    padding-top: 80px;
+}
+
+.feedbackmihail{
+    margin-top: 260px;
+    width: 690px;
+    text-align: center;
+    margin-left: 410px;
+}
+.mihail{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 0px;
+}
+.choice{
+    margin-top: 30px;
+    margin-left: 735px;
+    border-color: aqua;
+}
+
+input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+    input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #ffa500;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+.mycontacts__container{
+    height: 808px;
+    background: url(../img/line.png) 50% 140px no-repeat, url(../img/contacts.png) no-repeat;
+    color: #fff;
+}
+
+.mycontacts__container h2{
+   font-size: 34px;
+    text-align: center;
+    font-weight:bold;
+    padding-top: 90px; 
+    color: #fff;
+}
+
+.cont{
+    text-align: center;
+    width: 590px;
+    margin-top: 50px;
+    margin-left: 465px;
+}
+
+.cont1{
+    float: left;
+    margin-left: 400px;
+    margin-top: 35px;
+    padding-top: 50px;
+    width: 150px;
+    height: auto;
+    background: url(../img/geo.png) 50% 0% no-repeat;
+    text-align: center;
+}
+
+.cont2{
+    float: left;
+    margin-left: 145px;
+    width: 130px;
+    margin-top: 35px;
+    padding-top: 50px;
+    height: auto;
+    background: url(../img/envelope.png) 50% 0% no-repeat;
+    text-align: center;
+}
+
+.cont3{
+    float: left;
+    margin-left: 170px;
+    width: 130px;
+    margin-top: 35px;
+    padding-top: 50px;
+    height: auto;
+    background: url(../img/phone.png) 50% 0% no-repeat;
+    text-align: center
+}
+
+.mycontacts__container h3{
+    margin-left: 610px;
+    margin-top: 150px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+input[type=text1]{
+    background: rgba(210, 214, 220, 0.8);
+    float: left;
+    padding: 15px;
+    width: 352px;
+    margin-left: 400px;
+    margin-top: 45px;
+}
+input[type=text2]{
+    background: rgba(210, 214, 220, 0.8);
+    float: left;
+    padding: 15px;
+    width: 350px;
+    margin-left: 30px;
+    margin-top: 45px;
+}
+textarea{
+    background: rgba(210, 214, 220, 0.8);
+    padding: 15px;
+    width: 730px;
+    height: 94px;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.formbutton input{
+    margin-left: 710px;
+    margin-top: 30px;
+    padding: 14px;
+    width: 124px;
+    text-align: center;
+    border: 4px solid #fff;
+    border-radius: 10px;
+    background: none;
+    color: #fff;
+}
+.footer{
+    background-color: #354051;
+    height: 92px;
+    color: #fff;
+}
+.footer p{
+    margin-left: 620px;
+    padding-top: 44px;
+}
